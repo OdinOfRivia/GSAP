@@ -1,0 +1,76 @@
+body {
+  font-family: Poppins;
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 20px;
+  color: black;
+  font-family: Poppins;
+  text-transform: uppercase;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: Poppins;
+  font-weight: bolder;
+}
+
+.nav a {
+  color: aqua;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.tagline {
+  font-size: 20px;
+  font-family: Poppins;
+  color: rgba(0, 0, 0, 0.365);
+}
+
+.content {
+  position: relative;
+  text-align: center;
+  width: 600px;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+.beer img {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  width: 400px;
+  height: 400px;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p span {
+  color: rgb(181, 203, 115);
+}
+p {
+  font-size: larger;
+}
+
+.second-p {
+  font-size: 12px;
+  width: 250px;
+}
